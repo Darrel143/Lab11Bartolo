@@ -11,7 +11,7 @@ while True:
         print("Error: Please enter a numeric grade.")
     else:
         grade = int(grade)
-        if grade <= 40:
+        if grade <= 40 or grade > 100:
             print("Invalid Data")
             valid_input = False  
             break  
